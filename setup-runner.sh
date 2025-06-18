@@ -11,7 +11,7 @@ tar xzf ./actions-runner-linux-x64-2.325.0.tar.gz
 
 echo "Extracted actions runner to ~/runners/$NAME"
 
-./config.sh --url https://github.com/altinokdarici/onchainsite.xyz --token $TOKEN --name altinok-dev0-$NAME --unattended
+./config.sh --url https://github.com/altinokdarici/onchainsite.xyz --token $TOKEN --name $NAME --unattended
 echo "Configured actions runner with name $NAME"
 
 echo "Setting up the service..."
